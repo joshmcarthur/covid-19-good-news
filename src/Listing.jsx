@@ -8,7 +8,7 @@ export default ({ listings }) => (
     <Row style={{ flex: 1, height: "100%" }}>
       {listings && listings.length ? (
         listings.map(listing => (
-          <Cell key={listing.id} desktopColumns={2} phoneColumns={6} tabletColumns={6}>
+          <Cell key={listing.id} desktopColumns={2} phoneColumns={12} tabletColumns={6}>
             <ListingItem listing={listing} />
           </Cell>
         ))
