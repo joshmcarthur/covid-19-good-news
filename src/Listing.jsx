@@ -4,11 +4,11 @@ import ListingItem from "./ListingItem";
 import LinearProgress from "@material/react-linear-progress";
 
 export default ({ listings }) => (
-  <Grid style={{ flex: 1 }}>
+  <Grid style={{ flex: 1, maxWidth: "1080px" }}>
     <Row style={{ flex: 1, height: "100%" }}>
       {listings && listings.length ? (
         listings.map(listing => (
-          <Cell key={listing.id} desktopColumns={2} phoneColumns={12} tabletColumns={6}>
+          <Cell key={listing.id} desktopColumns={3} phoneColumns={12} tabletColumns={5}>
             <ListingItem listing={listing} />
           </Cell>
         ))
