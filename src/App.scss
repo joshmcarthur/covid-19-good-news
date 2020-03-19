@@ -1,0 +1,21 @@
+@import '@material/react-typography/index.scss';
+@import '@material/react-top-app-bar/index.scss';
+@import '@material/react-layout-grid/index.scss';
+@import '@material/react-card/index.scss';
+@import '@material/react-button/index.scss';
+
+@import '@material/react-linear-progress/index.scss';
+
+html, body {
+  margin: 0;
+  padding: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+}
